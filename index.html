@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chore Door!</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="img/logo.svg" alt="logo">
+      </div>
+      <div class="instructions">
+        <img src="img/star.svg" alt="star">
+        <h1>Instructions</h1>
+        <img src="img/star.svg" alt="star">
+      </div>
+      <div class="numbers">
+          <h1 class="numberone">1</h1>
+          <p class="textone">Hiding behind one of these doors is the ChoreBot.</p>
+          <h1 class="numbertwo">2</h1>
+          <p class="texttwo">Your mission is to open all of the doors without running into the ChoreBot.</p>
+          <h1 class="numberthree">3</h1>
+          <p class="textthree">If you manage to avoid the ChoreBot until the very last door, you win!</p>
+          <h1 class="numberfour">4</h1>
+          <p class="textfour">See if you can score a winning streak!</p>
+      </div>
+      <img id="doorone"  src="img/closed_door.svg" alt="closed_door">
+      <img id="doortwo"  src="img/closed_door.svg" alt="closed_door">
+      <img id="doorthree" src="img/closed_door.svg" alt="closed_door">
+      <button type="button" name="button" class="button" id="button">Good luck!</button>
+      <div class="streak">
+        <p class="current">Current streak:</p>
+        <p class="best">Best streak:</p>
+        <div class="curdiv" id="curdiv">
+          0
+        </div>
+        <div class="besdiv" id="besdiv">
+          0
+        </div>
+      </div>
+      <div class="footer">
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="./script.js">
+
+  </script>
+</html>
